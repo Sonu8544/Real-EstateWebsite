@@ -1,0 +1,9 @@
+.cr-wrapper{
+    background: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 0;
+    color: white;
+    font-size: 0.8rem;
+}

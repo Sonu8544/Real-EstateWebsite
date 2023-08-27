@@ -1,0 +1,57 @@
+[
+    {
+     "name":"Sonu Kumar",
+     "price":"33,234",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 6.png"
+    },
+    {
+     "name":"Aarti Kumari",
+     "price":"23,456",
+     "detail":" Make a habit of tidying up after yourself. Dispose of trash properly and avoid leaving personal items scattered around.",
+     "image":"./image/asset 7.png"
+    },
+    {
+     "name":"Pihu Kumari ",
+     "price":"33,556",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 8.png"
+    },
+    {
+     "name":"Abhi Singh",
+     "price":"11,707",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 6.png"
+    },
+    {
+     "name":"Ram Kumar",
+     "price":"13,876",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 7.png"
+    },
+    {
+     "name":"Rahul Singh",
+     "price":"12,321",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 8.png"
+    },
+    {
+     "name":"Santi  Singh",
+     "price":"43,432",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 7.png"
+    },
+    {
+     "name":"Sohil  Singh",
+     "price":"54,432",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 6.png"
+    },
+    {
+     "name":"Another Person",
+     "price":"65,777",
+     "detail":"We beleive a good blace to live can make your life",
+     "image":"./image/asset 7.png"
+    }
+ 
+ ]

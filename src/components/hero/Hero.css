@@ -1,0 +1,130 @@
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    /* background-color: var(--black); */
+    
+}
+.hero-container{
+    justify-content: space-around;
+    align-items: flex-end;
+}
+/* left  */
+.hero-left{
+    gap: 3rem;
+}
+.hero.title{
+    position: relative;
+    z-index: 1;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+.orange-circle{
+    height: 4rem;
+    width: 4rem;
+    background-color: orange;
+    border-radius: 50px;
+    position: absolute;
+    right: 63%;
+    top: 7%;
+    
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.search-bar>input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 1.3rem;
+    /* color: orange; */
+    color: blue;
+}
+
+/* Status */
+.status{
+    width: 100%;
+    justify-content: space-between;
+}
+.plusIcon {
+    color: orange;
+    margin-left: 0.2rem;
+}
+.statusSize{
+    font-size: 1.6rem;
+}
+/* Right contaner */
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    /* border: 8px solid rgba(255, 2555, 255, 0.12); */
+    border: 8px solid orange;
+}
+.image-container>img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width : 800px){
+    .orange-circle{
+        visibility: hidden;
+    }
+}
+/* responcive design */
+@media(max-width : 640px){
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+    .status{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .stat>:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2){
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(3){
+        font-size: 1.5rem;
+    }
+    .orange-circle{
+        visibility: hidden;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .rsearch{
+        width: 100%;
+    }
+    .sbutton{
+        position: absolute;
+        /* display: block; */
+        top: 10;
+        right: 3rem;
+    }
+    .search-bar{
+        /* width: 50%; */
+        height: 4rem;
+       overflow: hidden;
+       display: block;
+    }
+}
