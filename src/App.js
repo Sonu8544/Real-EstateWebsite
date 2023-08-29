@@ -13,12 +13,13 @@ function App() {
   return (
     <>
       <div className="App">
+        
         <div className="backgroundBlur" >
           <div className="white-gradiant"/>
         <Header />
         <Hero />
-        
         </div>
+
         <Company/>
         <Residencies/>
         <Value/>
